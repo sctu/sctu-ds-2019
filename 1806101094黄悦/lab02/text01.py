@@ -24,11 +24,12 @@
 #输入：Hello,World!
 #
 #输出：！dlroW,olleH
-a=('Hello,Word!')
-l=list.a
+
 stack=[]
-for i in range(l):
+for i in 'Hello,Word!':
     stack.append(i)
+result=[]
 while len(stack)!=0:
-    print(stack.pop())
+   result.append(stack.pop())
+print(''.join(result))
 
