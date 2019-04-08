@@ -28,4 +28,7 @@ for i in 'hello,world!':
 result=[]
 while len(stack) is not 0:
     result.append(stack.pop())
-print(''.join(result))
+print(''.join(result))stack=[]
+
+
+
