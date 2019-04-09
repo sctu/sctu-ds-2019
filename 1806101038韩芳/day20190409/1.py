@@ -4,3 +4,4 @@ for i in range(10):
 print(stack)
 while len(stack)!=0:
     print(stack.pop())
+
