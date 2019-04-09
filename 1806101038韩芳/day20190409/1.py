@@ -1,5 +1,5 @@
 stack=[]
-for i in 'hello world':
+for i in range(10):
     stack.append(i)
 print(stack)
 while len(stack)!=0:
