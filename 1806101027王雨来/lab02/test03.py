@@ -1,3 +1,4 @@
+#回文检测
 str = input("please input something:")
 original = []
 inverted = []

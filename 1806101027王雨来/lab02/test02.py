@@ -1,3 +1,4 @@
+#括号匹配
 kh = []
 yourInput = input("please input something:")
 for i in yourInput:
