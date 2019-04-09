@@ -1,8 +1,19 @@
-
 stack = []
-for i in 'hello word!':
+
+for i in 'Hello,World!':
     stack.append(i)
+
 result = []
+
 while len(stack) is not 0:
     result.append(stack.pop())
-print(''.join(result))
+    print(result.pop(),end = "")
+
+
+
+
+
+
+
+
+
