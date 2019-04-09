@@ -8,6 +8,3 @@ stack.append(3)
 print(stack.pop())
 print(stack.pop())
 print(stack.pop())
-
-for i in range(1,11):
-    print(stack.append())
