@@ -7,5 +7,3 @@ stack.append(3)
 print(stack.pop())
 print(stack.pop())
 print(stack.pop())
-
-#当栈不为空时一直pop
