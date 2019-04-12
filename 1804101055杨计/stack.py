@@ -12,4 +12,4 @@ stack.append(10)
 #ctrl+x
 a=stack.pop()
 print(a)
-申请
+申请123
