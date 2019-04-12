@@ -7,7 +7,7 @@ stack.append(3)
 stack.append(4)
 #...
 stack.append(10)
-
+1
 #ctrl+d
 #ctrl+x
 a=stack.pop()
