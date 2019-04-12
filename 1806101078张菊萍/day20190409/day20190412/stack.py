@@ -5,27 +5,27 @@ stack.append(1)
 stack.append(2)
 stack.append(3)
 stack.append(4)
-# ...
+#...
 stack.append(10)
 
-for i in range(1, 11):
+for i in range(1,11):
     stack.append(i)
 
 # for i in 'hello':
-#     print(i)
+#      print(i)
 
 
-# ctrl + d
-# ctrl + x
-stack.pop()
-stack.pop()
-stack.pop()
-stack.pop()
-stack.pop()
-stack.pop()
-stack.pop()
-stack.pop()
-stack.pop()
+# ctrl + d 复制
+# ctrl + x 删除
+a = stack.pop()
+a = stack.pop()
+a = stack.pop()
+a = stack.pop()
+a = stack.pop()
+a = stack.pop()
+a = stack.pop()
+a = stack.pop()
+a = stack.pop()
 
 # 代码重复
 
