@@ -5,3 +5,4 @@ for i in "hello,world":
 while len(stack) is not 0:
     result.append(stack.pop(1))
 print("",join(result))
+
