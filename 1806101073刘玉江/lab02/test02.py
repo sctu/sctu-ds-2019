@@ -1,4 +1,4 @@
-str='{[()]}'
+str='[{[()]}]'
 stack=[]
 left=['[','{','(']
 right=[']','}',')']
@@ -10,7 +10,11 @@ for i in str:
 
 
         if i in right:
-            stack.pop()
+            if len(stack)==0:
+                stack.append(0)
+                break
+            else:
+                stack.pop()
         else:
             print("False")
             break
