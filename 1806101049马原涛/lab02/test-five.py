@@ -25,7 +25,7 @@ while True:
     else:
         Min(stack, MinStack, minIndex, shuru)
     print('最小值为%d'%MinStack[-1])
-    # print(stack,MinStack)
+    print('栈内元素{}\n最小栈元素{}'.format(stack,MinStack))
 
 
 
