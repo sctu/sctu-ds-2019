@@ -13,7 +13,6 @@ for ch in str:
          ch is ')':
         stack.pop()
 
-
 if stack:
     print(True)
 else:
