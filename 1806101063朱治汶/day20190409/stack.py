@@ -8,6 +8,7 @@ stack.append(3)
 #ctrl + x
 #ctrl + w
 
+
 print(stack.pop())
 print(stack.pop())
 print(stack.pop())
