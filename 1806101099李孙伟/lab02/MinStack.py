@@ -1,4 +1,3 @@
-#实现MinStack
 str = input("please input something:")
 stack = []
 for i in str:
