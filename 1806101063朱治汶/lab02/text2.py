@@ -12,6 +12,8 @@ for ch in str:
          ch is '}'or\
          ch is ')':
         stack.pop()
+
+
 if stack:
     print(True)
 else:
