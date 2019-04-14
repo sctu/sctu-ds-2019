@@ -1,0 +1,16 @@
+Index: 1806101062吴澧/lab02/test01.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 1806101062吴澧/lab02/test01.py	(revision ed41d6ca7c9f2fb5e1a4ce8503b1ec160c10d8ca)
++++ 1806101062吴澧/lab02/test01.py	(revision 1b462f30435178cf16bb9342fb4e679a0fb237ca)
+@@ -28,7 +28,7 @@
+ result=[]
+ while len(stack) is not 0:
+     result.append(stack.pop())
+-print(''.join(result))stack=[]
++print(''.join(result))
+ 
+ 
+ 
