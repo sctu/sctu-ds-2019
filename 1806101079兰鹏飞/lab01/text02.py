@@ -12,7 +12,6 @@ for i in str:
             else:
                 status=1
                 break
-
         else:
             status=1
             break
