@@ -6,12 +6,12 @@
 
 n=input()
 stack=[]
-for i in range(0,int(n)):
+huiwen=''
+for i in range(0,len(n)):
     stack.append(i)
-    a=stack
-    stack.pop()
-    b=stack
-if a==b:
+for i in range(0,len(n)):
+    huiwen+=stack.pop()
+if huiwen==n:
     print("Ture")
 else:
     print("False")
