@@ -1,6 +1,5 @@
 stack = []
-
-for i in 'Hello,World!':
+for i in 'hello,world':
     stack.append(i)
 
 result = []
