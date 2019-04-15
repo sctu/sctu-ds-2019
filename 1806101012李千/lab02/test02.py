@@ -1,6 +1,6 @@
 #{[()]}
 
-str="{[()]}"
+str=input("请输入：")
 
 stack= []
 
@@ -20,8 +20,6 @@ if ch==')' and stack[-1]=='(':
     stack.pop(ch)
 elif ch==']' and stack[-1]=='[':
     stack.pop(ch)
-
-
 
 #  如果不匹配，return false，如果匹配则继
 
