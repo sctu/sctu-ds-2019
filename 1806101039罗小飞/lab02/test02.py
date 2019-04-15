@@ -1,11 +1,29 @@
-stack=[]
-# stack.append(1)
-# stack.append(2)
-# stack.append(3)
-# print(stack.pop())
-# print(stack.pop())
-# print(stack.pop())
-for i in range(1,10):
-    stack.append(i)
-while len(stack) !=0:
-    print(stack.pop())
+stackl=[]
+stackr=[]
+left='([{'
+right=')]}'
+s=input('请输入判断语句：')
+for i in s:
+    if i==left:
+        stackl.append(i)
+        changdul=len(stackl)
+    elif i==right:
+        stackr.append(i)
+        changdur=len(stackr)
+        if changdul<changdur:
+            print("不匹配")
+            break
+        else:
+            continue
+    else:
+        continue
+print(stackl.pop())
+print(stackr.pop())
+if chuzhanl == '( 'and chuzhanr==')'  or chuzhanl == '[' and chuzhanr == ']':
+    print('匹配')
+else:
+    print('不匹配')
+if chuzhanl == '{'and chuzhanr=='}':
+    print('匹配')
+else:
+    print('不匹配')
