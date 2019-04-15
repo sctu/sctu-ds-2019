@@ -3,7 +3,7 @@ str='{[()]}'
 Left='{[('
 Right='}])'
 
-#进行便利.
+#进行遍历.
 for ch in str:
     print(ch)
 
