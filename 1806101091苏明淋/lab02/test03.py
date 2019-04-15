@@ -1,16 +1,15 @@
-str = input("please input something:")
-original = []
-inverted = []
-for i in str:
-    original.append(i)
+stack = []
+queue = []
+for i in 'abcdcba':
+    stack.append(i)
 
-while len(original) != 0:
-    inverted.append(original.pop())
+while len(stack) != 0:
+    queue.append(stack.pop())
 
-for i in str:
-    original.append(i)
+for i in 'abcdcba':
+    stack.append(i)
 
-if original == inverted:
+if stack == queue:
     print("True")
 else:
     print("False")
