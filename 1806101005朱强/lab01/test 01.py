@@ -5,4 +5,5 @@ for i in range 'hello,world';
 result=[]
 while len(stack) is not 0;
     result.append(stack.pop())
-result
+
+
