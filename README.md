@@ -14,12 +14,13 @@
 - Pycharm
 
 
-5. 设置conda的国内清华镜像，加快下载速度
+设置conda的国内清华镜像，加快下载速度
+```shell
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --set show_channel_urls yes
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
-
+```
 
 二、视频学习
 
@@ -40,16 +41,16 @@ http://idea.lanyus.com/
 
 3. 提交和更新代码
 
-ctrl + k 提交代码
-ctrl + t 更新代码
-crtl + shift + k 提交之前失败的操作。  ctrl -> shift -> k
+- ctrl + k 提交代码
+- ctrl + t 更新代码
+- crtl + shift + k 提交之前失败的操作。  ctrl -> shift -> k
 
 
 
 
-绿色 - 即将提交到远程版本库的文件
-红色 - 不会被提交的文件
+- 绿色 - 即将提交到远程版本库的文件
+- 红色 - 不会被提交的文件
 
-红色 -> 绿色
+- 红色 -> 绿色
 
 
