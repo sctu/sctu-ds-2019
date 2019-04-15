@@ -2,20 +2,21 @@ str = "{[()]}"
 stack = []
 Left = "{{("
 Right = "})}"
-parens1 = []
-for ch in str:
-    if ch  in Left:
-        stack.append(ch)
-        print(ch)
+R = []
+for i in str:
+    if i in Left:
+        stack.append(i)
     else:
-       ch2=ch
-       print(ch2)
-if ch_len = ch2_len:
-    print("True")
+        R = stack.pop()
+        right_index = Right.index(R)
+        left_index = Left.index(i)
+        if left_index != right_index:
+            print('Wrong')
+            break
+if len(stack) is 0:
+    print('True')
 else:
     print('Wrong')
-
-
 
 
 
