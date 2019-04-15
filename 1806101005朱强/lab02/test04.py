@@ -11,7 +11,7 @@ for  i in 'hello,world!':
     result = []
     while len(stack) != 0:
         result.append(stack.pop())
-        print("".join(result))
+         print("".join(result)
 
 
 
