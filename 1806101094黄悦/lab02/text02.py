@@ -24,6 +24,7 @@ for i in '{[()]}':
            print('不匹配')
            break#跳出整个for循环
 
+#当所有字符处理完成后
 if len(stack) is 0:
     print('匹配')
 else:
