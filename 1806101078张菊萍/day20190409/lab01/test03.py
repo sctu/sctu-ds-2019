@@ -1,4 +1,4 @@
-n=input()
+    prin=input()
 l=[]
 x=[]
 for i in n:
@@ -8,4 +8,4 @@ for j in range(1,len(n)+1):
 if l==x:
     print(True)
 else:
-    print(False)
+nt(False)
