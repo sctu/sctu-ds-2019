@@ -9,6 +9,7 @@ for i in str:
     elif i in right:
 
 
+
         if i in right:
             if len(stack)==0:
                 stack.append(0)
