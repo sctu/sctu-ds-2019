@@ -21,8 +21,6 @@ if ch==')' and stack[-1]=='(':
 elif ch==']' and stack[-1]=='[':
     stack.pop(ch)
 
-
-
 #  如果不匹配，return false，如果匹配则继
 
 #当所有字符都处理完成后，栈不为空，返回false，如果匹配则继续。
