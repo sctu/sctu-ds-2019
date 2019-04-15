@@ -13,3 +13,4 @@ while len(stack) is not 0:
     else:
         num0=num0
 print(num0)
+
