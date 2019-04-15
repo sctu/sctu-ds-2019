@@ -9,6 +9,7 @@ for ch in str:
        ch is '(':
         stack.append(ch)
 
+
     elif ch is '}'or\
          ch is ']'or\
          ch is ')':
