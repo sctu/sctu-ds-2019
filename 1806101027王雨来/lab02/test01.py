@@ -1,3 +1,4 @@
+#倒序打印
 stack = []
 
 for i in 'Hello,World!':
