@@ -1,5 +1,4 @@
 stack = []
-
 for i in "Hello,Word!":
     stack.append(i)
 result = []
