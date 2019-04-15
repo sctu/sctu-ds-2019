@@ -17,7 +17,3 @@ if stack:
     print(True)
 else:
     print(False)
-
-
-
-
