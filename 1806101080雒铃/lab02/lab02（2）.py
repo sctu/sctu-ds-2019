@@ -12,3 +12,4 @@ def check(n):
                 return False
     return not arr
 print(check(n))
+

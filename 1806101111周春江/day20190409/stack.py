@@ -1,9 +1,7 @@
 stack = []
 
-
-for i in 'Hello Word!':
+for i in 'hello,World!':
     stack.append(i)
-
 
 result = []
 while len(stack) is not 0:
