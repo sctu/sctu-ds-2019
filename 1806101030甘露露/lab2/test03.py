@@ -1,4 +1,4 @@
-a = input("请输入数字: ")
+a = input("请输入数: ")
 b=len(a)
 for i in range (b):
     if(a[i]==a[b-i-1]):

@@ -7,5 +7,5 @@ min.append(stack.pop())
 print(min)
 while len(stack) != 0:
     if stack[-1]<min[-1]:
-        min.append(stack.pop())
+     min.append(stack.pop())
 print(min[-1])

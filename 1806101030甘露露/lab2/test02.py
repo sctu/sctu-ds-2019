@@ -13,3 +13,5 @@ if len(stack)==0:
     print("True")
 else:
     print("Flase")
+
+
