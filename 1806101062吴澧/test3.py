@@ -1,15 +1,15 @@
-b='abcdcba'
+str='abcdcba'
 stack = []
-for i in b:
+for i in str:
     stack.append(i)
 
 
-p = []
+px= []
 while len(stack) is not 0:
-    p.append((stack.pop()))
+    px.append((stack.pop()))
 
-a=''.join(p)
-if a==b:
+a=''.join(px)
+if a==str:
     print(True)
 else:
     print(False)

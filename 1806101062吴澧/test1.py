@@ -1,11 +1,10 @@
-stack = []
+stack=[]
 
-for i in 'Hello,World!':
+for i in 'hello,world!':
     stack.append(i)
 
-result = []
-
+result=[]
 while len(stack) is not 0:
     result.append(stack.pop())
-
 print(''.join(result))
+
