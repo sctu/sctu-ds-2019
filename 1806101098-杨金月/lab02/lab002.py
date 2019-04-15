@@ -3,6 +3,7 @@ stack = []
 Left = "{{("
 Right = "})}"
 R = []
+
 for i in str:
     if i in Left:
         stack.append(i)
