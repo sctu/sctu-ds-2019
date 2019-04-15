@@ -8,4 +8,4 @@ for i in stack1:
 n=len(stack)
 for i in range(n):
     a=stack.pop()
-    print(a)
+    print(a,end='')
