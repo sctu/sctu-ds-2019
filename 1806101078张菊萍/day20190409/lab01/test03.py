@@ -1,12 +1,11 @@
-#
-# 输入：abcdcba
-#
-# 输出：True
-str=input()
-a=''
-for i in range(1,len(str)+1):
-    a+=str[-i]
-if str==a:
-    print('Ture')
+n=input()
+l=[]
+x=[]
+for i in n:
+    l.append(i)
+for j in range(1,len(n)+1):
+    x.append(l[-j])
+if l==x:
+    print(True)
 else:
-    print('False')
+    print(False)
