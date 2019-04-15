@@ -15,6 +15,5 @@ def check(s):
                 return False
 
     return True
-
 print(check("3 * {3 +[(2 -3) * (4+5)]}"))
 print(check("3 * {3+ [4 - 6}]"))
