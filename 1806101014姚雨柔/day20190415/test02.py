@@ -1,4 +1,5 @@
-#括号匹配
+# 编程实现括号匹配
+
 kh = []
 yourInput = input("please input something:")
 for i in yourInput:
