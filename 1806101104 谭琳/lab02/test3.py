@@ -7,8 +7,7 @@ for i in b:
 p = []
 while len(stack) is not 0:
     p.append((stack.pop()))
-
-a=''.join(p)
+                                                                                                                                                                                                                                        宝宝
 if a==b:
     print(True)
 else:
