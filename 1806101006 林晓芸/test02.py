@@ -1,18 +1,10 @@
-b='abcdcba'
 stack = []
-for i in b:
+for i in "Hello,World!":
     stack.append(i)
-
 
 p = []
 while len(stack) is not 0:
     p.append((stack.pop()))
 
-a=''.join(p)
-if a==b:
-    print(True)
-else:
-    print(False)
-
-
-
+a=(''.join(p))
+print(a)

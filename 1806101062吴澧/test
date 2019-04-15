@@ -1,0 +1,30 @@
+一、注释
+1.压栈 python中压栈操作是append()
+stack.append(1)
+stack.append(2)
+stack.append(3)
+
+for i in range(1,11):
+    stack.append(i)
+
+ctrl+d复制一行  ctrl+x删除一行
+ctrl+/快速注释以及快速反注释
+2.出栈 python中出栈的操作是pop()
+print(stack.pop())   #
+print(stack.pop())   #p
+print(stack.pop())   #
+
+while len(stack)!=0:
+    print(stack.pop())
+
+二、ctrl+T更新和提交代码
+ctrl+k         提交代码
+ctrl+shift+k   提交代码
+三、如何编程？
+
+1.了解你要解决的问题是什么。
+2.确定解决问题的算法，算法分成多少步，每一个步骤是什么。
+3.对于每一个步骤，先用自然语言描述，然后再转化为python代码。
+4.在确保上一个步骤的情况下，才进行下一步的操作。
+
+left_parentheses左括号  break终止整个循环
