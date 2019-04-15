@@ -3,7 +3,6 @@
 #输出:!dlroW,olleH
 #字符串里面的每一个字符进行压栈操作
 #出栈直到栈为空为止，打印每个出栈元素
-
 stack = []
 
 for i in 'Hello,World!':
