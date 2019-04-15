@@ -1,3 +1,3 @@
 print('hello')
 print('hello')
-stack = [
+stack = []
