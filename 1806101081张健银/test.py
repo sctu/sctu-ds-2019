@@ -1,8 +1,6 @@
 stack=[]
-str1="Hello,world"
-for i in "Hello,world!":
+str = "afaf"
+for i in str:
     stack.append(i)
-result = []
-while len(stack) is not 0:
-    result.append(stack.pop())
-print("".join(result))
+
+print(stack.pop())
