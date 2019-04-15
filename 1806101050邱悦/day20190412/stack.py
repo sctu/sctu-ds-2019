@@ -12,4 +12,3 @@ for i in range(1,11):
     stack.append(i)
 stack.pop()
 print(a)
-gvhbh
