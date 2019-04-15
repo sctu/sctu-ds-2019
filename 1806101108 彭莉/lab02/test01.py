@@ -23,7 +23,7 @@
 #     print(stack.pop())
 #     str = 'Hello,World'
 stack = []
-for i in 'Hello,World':
+for i in 'Hello,World!':
     stack.append(i)
 while len(stack) is not 0:
     print(stack.pop())
