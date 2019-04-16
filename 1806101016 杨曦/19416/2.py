@@ -18,7 +18,6 @@ for i in '{[()]}':
         if LEFT.index(left) != RIGHT.index(i):
             print('不匹配')
             break
-
 #当所有的字符都处理完后，判断栈是否为空
 if len(stack) == 0:
     print('匹配')
