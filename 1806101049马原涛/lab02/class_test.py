@@ -1,3 +1,4 @@
+#类的使用
 class information:
     def __init__(self,name,age,gender,sort):
         self.name=name
