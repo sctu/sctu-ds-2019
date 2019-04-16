@@ -1,8 +1,8 @@
 # 学生：姓名张三，年龄18，性别男
 
-name:'zhangsan'
-age:18
-gender:male
+name: 'zhangsan'
+age: 18
+gender: 'male'
 
 class Student:
 
@@ -12,8 +12,11 @@ class Student:
         self.age = age
         self.fender = gender
 
-    def print(self):
-        print('self.name{}',())
+    def printInfo(self):
+        print('name: {}'.format(self.name))
+        print('age: {}'.format(self.age))
+        print('gender: {}'.format(self.gender))
+
 zs = Student('zhangsan', 18, 'male');
 
-zs.name
+zs.printInfo()
