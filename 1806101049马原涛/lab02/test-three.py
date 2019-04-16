@@ -1,7 +1,7 @@
 # 3、编程实现回文数判断。
 #
 # 输入：abcdcba
-#
+#                                                                                                                    c
 # 输出：True
 str=input()
 a=''
