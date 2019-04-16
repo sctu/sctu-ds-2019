@@ -1,25 +1,27 @@
+
+
+#定义匹配括号函数
 def match_parentheses(s):
-    # 把一个list当做栈使用
-    ls = []
+    #定义栈
+    stack = []
     parentheses = "()[]{}"
+    #判断是否为括号
     for i in range(len(s)):
         si = s[i]
-        # 如果不是括号则继续
         if parentheses.find(si) == -1:
             continue
-        # 左括号入栈
+        #是括号就压入
         if si == '(' or si == '[' or si == '{':
-            ls.append(si)
+            stack.append(si)
             continue
-        if len(ls) == 0:
+        if len(stack) == 0:
             return False
-        # 出栈比较是否匹配
-        p = ls.pop()
+        p = stack.pop()
         if (p == '(' and si == ')') or (p == '[' and si == ']') or (p == '{' and si == '}'):
             continue
         else:
             return False
-    if len(ls) > 0:
+    if len(stack) > 0:
         return False
     return True
 if __name__ == '__main__':
