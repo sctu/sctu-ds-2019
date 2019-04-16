@@ -1,3 +1,4 @@
+#3
 shuru=input()
 stack=[]
 for i in shuru:
