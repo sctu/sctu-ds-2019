@@ -1,3 +1,4 @@
+#括号配对判断
 stack=[]
 str='{[()]}'
 Left='{[('
@@ -14,4 +15,4 @@ for ch in str:
 #如果是右括号，则与与当前左括号比较，若匹配，则继续，不匹配，则return False.
     if ch is in 'Right':
         stack.append(ch)
-        
+    
