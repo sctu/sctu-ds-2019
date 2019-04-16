@@ -1,9 +1,9 @@
 #{[()]
-def check
+
 str='{[()]}'
 stack=[]
-zuobian='{[('
-youbian='}])'
+zuobian=['{' '[' '(']
+youbian=['}' ']' ')']
 #1.依次遍历每一个字符,针对每一个字符进行处理
 for i in str:
     print(i)
@@ -25,6 +25,7 @@ for i in str:
 #4.当所有字符都处理完成后
 #  栈不为空，返回False
 #  如果栈为空，则return True
+
 
 
 
