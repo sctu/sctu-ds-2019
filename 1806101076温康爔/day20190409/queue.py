@@ -7,3 +7,4 @@ queue.append(3)
 print(queue.append(0))
 print(queue.append(0))
 print(queue.append(0))
+
