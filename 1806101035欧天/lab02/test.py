@@ -1,6 +1,5 @@
 stack=[]
-for i in 'hello,world!':
-
+for i in 'hello,world!': #将每个字符压栈
     stack.append(i)
 
 
