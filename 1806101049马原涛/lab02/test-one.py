@@ -3,7 +3,6 @@
 # 输入：Hello,World!
 #
 # 输出：!dlroW,olleH
-
 str=input()
 stack=[]
 for i in str:
