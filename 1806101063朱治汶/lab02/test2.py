@@ -13,6 +13,7 @@ for ch in str:
          ch is ']'or\
          ch is ')':
         stack.pop()
+
 if len(stack)==0:
     print(True)
 else:
