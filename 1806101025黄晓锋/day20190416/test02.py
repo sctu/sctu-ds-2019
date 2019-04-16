@@ -1,6 +1,6 @@
 #括号匹配
 stack=[]
-stack1=['{[()]}']
+stack1=input('请输入需要匹配判断的括号：')
 Left=['{','[','(']
 Right=['}',']',')']
 
@@ -10,13 +10,20 @@ for i in stack1:
 #2.如果是左括号，则入栈
     if i in Left:
         stack.append(i)
+    elif len(stack)==0:
+        stack.append(1)
+        break
 
 #3.如果是右括号，则进行比较
     elif i in Right:
+
 #如果匹配成功，返回True
-        left=stack.pop()
+        left=stack[-1]
+        if Left.index(left)==Right.index(i):
+            stack.pop()
+
 #如果匹配失败，返回False
-        if Left.index(Left)!=Right.index() or len(stack)==0:
+        elif Left.index(left)!=Right.index(i) or len(stack)==0:
             print('Flse')
             break
 
