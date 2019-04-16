@@ -1,4 +1,4 @@
-str = '{[()]}'
+str = input('请输入：')
 left ='{[('
 right = '}])'
 
@@ -8,12 +8,13 @@ for ch in str:
        ch is '['or\
        ch is '(':
         stack.append(ch)
+
     elif ch is '}'or\
-         ch is '}'or\
+         ch is ']'or\
          ch is ')':
         stack.pop()
 
-if stack:
+if len(stack)==0:
     print(True)
 else:
     print(False)

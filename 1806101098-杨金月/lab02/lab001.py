@@ -1,7 +1,7 @@
 stack = []
-for i in 'hello,World!':
+for i in "Hello,Word!":
     stack.append(i)
 result = []
-while len(stack) != 0:
+while len(stack) is not 0:
     result.append(stack.pop())
-print("".join(result))
+print(''.join(result))
