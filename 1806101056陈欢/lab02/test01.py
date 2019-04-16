@@ -1,5 +1,7 @@
-以后实验敲代码就在这里面！
-有三个实验 这个叫test01 剩下的两个 要创建为test02 test03 创建在lab02文件夹里
-提交是CTRL+k
-下面开始提交
+stack=[]
+s="hello world"
+for i in s:
+    stack.append(i)
+while len(stack)!=0:
+    print(stack.pop(),end="")
 
