@@ -10,6 +10,9 @@ for i in stack1:
 #2.如果是左括号，则入栈
     if i in Left:
         stack.append(i)
+    elif len(stack)==0:
+        stack.append(1)
+        break
 
 #3.如果是右括号，则进行比较
     elif i in Right:
