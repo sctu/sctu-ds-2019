@@ -1,8 +1,8 @@
 # 学生：姓名张三，年龄18，性别男
 
-name:'zhangsan'
-age:18
-gender:male
+name: 'zhangsan'
+age: 18
+gender: 'male'
 
 class Student:
 
