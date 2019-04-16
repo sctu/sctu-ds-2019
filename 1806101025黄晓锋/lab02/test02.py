@@ -1,18 +1,25 @@
 #括号配对判断
 stack=[]
-str='{[()]}'
-Left='{[('
-Right='}])'
+stack0=input('请输入需要括号配对判断：')
 
-#进行遍历.
-for ch in str:
-    print(ch)
+stack1={'{':'}','[':']','(':')'}
 
-# 若果是右括号，则入栈.
-    if ch is in 'Left':
+left=stack1.keys()
+right=stack1.values()
+a=0
+
+for ch in stack0:
+    if ch in left:
         stack.append(ch)
+    elif len(stack)==0:
+        a=1
+    elif ch in right:
+        if ch==stack1[stack[-1]]:
+            stack.pop()
+        else :
+            a=1
 
-#如果是右括号，则与与当前左括号比较，若匹配，则继续，不匹配，则return False.
-    if ch is in 'Right':
-        stack.append(ch)
-    
+if a==1 or len(stack)!=0:
+    print(False)
+else :
+    print(True)
