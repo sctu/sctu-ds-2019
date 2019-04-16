@@ -10,7 +10,6 @@ response = requests.get(url)
 response.encoding = 'utf-8'
 html = response.text
 
-
 #处理解析抓回数据
 soup = BeautifulSoup(html,features="lxml")
 joke = soup.select('div.content')[0].get_text()
