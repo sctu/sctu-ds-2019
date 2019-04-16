@@ -1,24 +1,32 @@
-#2、编程实现括号匹配。输入：{[()]} 输出：True
-str=input()
-match={'[':']','(':')','{':'}'}
-stack=[]
-status=0
-for i in str:
-    if i in match.keys():
-        stack.append(i)
-    elif i in match.values():
-        if len(stack)!=0 :
-            if match[stack[-1]]==i:
-                stack.pop()
-            else:
-                status=1
-                break
+#lab2、编程实现括号匹配。输入：{[()]} 输出：True
 
-        else:
-            status=1
+stack = []
+LEFT = ['{']
+#1.针对每一个字符进行处理
+for i in '{[()]}':
+#2.如果是左括号，则入栈
+    if i in LEFT:
+    # print(i)        KLP
+        stack.append(i)
+#3.如果是右括号，则进行匹配
+    if i in RIGHT:
+        #print(i)
+        left_parentheses = stack.pop()
+        left_index = LEFT .index(left_parent)
+        right_index=RIGHT_index(i)
+
+        if left_index !=right_index:
+            print('不匹配')
             break
-if status==0:
-    print('True')
+#4.当所有的字符都处理完成后，
+if len(stack) is 0:
+    print('匹配')
 else:
-    print('False')
+    print('不匹配')
+#判断栈是否为空
+
+
+
+
+
 
