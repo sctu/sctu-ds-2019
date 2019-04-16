@@ -5,22 +5,6 @@
 #输出：True
 
 
-#left=['{',"(",'[','<']
-#rig=['}',")","]",">"]
-#s = {')': '(', ']': '[', '}': '{', '>': '<'}
-#stack1=[]
-#stack2=[]
-
-#for i in s:
-    #if i in left:
-      #  stack1.append(i)
-    #elif i in rig:
-        #stack2.append(i)
-#for a in stack1:
-    #if
-
-
-
 S= {'}': '{', ']': '[', ')': '('}
 #创建一个字典
 SL, SR = S.values(), S.keys()
@@ -29,6 +13,7 @@ SL, SR = S.values(), S.keys()
 def sum(s):
     stack = []
     for ch in s:
+    #针对每一个字符进行处理
         if ch in SL:
             # 左括号入栈
             stack.append(ch)
@@ -38,9 +23,9 @@ def sum(s):
                 stack.pop()
             else:
                 return False
-
+# 当所有字符都处理完后，栈不为空，返回False  如果栈为空，reture True
     return True
 print(sum("3 * {3 +[(2 -3) * (4+5)]}"))
 print(sum("3 * {3+ [4 - 6}]"))
-   #如果匹配则继续
-#当所有字符都处理完后，栈不为空，返回False  如果栈为空，reture True
+
+#s.index('x')  获取x的下标
