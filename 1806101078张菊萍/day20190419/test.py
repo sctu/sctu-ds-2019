@@ -29,6 +29,3 @@ if len(stack) is 0:
     print('不匹配')
 else:
     print('不匹配')
-
-
-
