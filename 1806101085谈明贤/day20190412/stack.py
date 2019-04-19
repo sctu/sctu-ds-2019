@@ -13,6 +13,7 @@ print(a)'''
 stack=[]
 for i in "Hello,World!":
     stack.append(i)
+
 str1=[]
 while len(stack) is not 0:
     str1.append(stack.pop())
