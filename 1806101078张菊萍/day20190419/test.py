@@ -22,7 +22,7 @@ for i in '{[()]}':
           if LEFT.index(left_parentheses) \
                  != RIGHT.index(i):
             print('不匹配')
-            break1
+            break
 
 # 4.当所有的字符都处理完成后，
 #   判断栈是否为空
