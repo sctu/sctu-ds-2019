@@ -6,9 +6,9 @@ for i in "{[()]}":    #对字符串遍历
         stack.append(i)
     if i in right:
         left_parentheses=stack.pop()
-        a=left.index(left_parentheses)
-        b=right.index(i)
-    if a!=b:
+        A=left.index(left_parentheses)
+        B=right.index(i)
+    if A!=B:
         print("不匹配")
         break
 if len(stack) is 0:
