@@ -8,9 +8,10 @@ n=input()
 stack=[]
 huiwen=''
 for i in range(0,len(n)):
-    stack.append(i)
+    stack.append(n[i])
 for i in range(0,len(n)):
-    huiwen+=stack.pop()
+    a=stack.pop()
+    huiwen+=a
 if huiwen==n:
     print("Ture")
 else:
