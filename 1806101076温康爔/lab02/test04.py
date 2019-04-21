@@ -10,7 +10,7 @@ class Student:
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
-        self.fender = gender
+        self.gender = gender
 
     def printInfo(self):
         print('name: {}'.format(self.name))

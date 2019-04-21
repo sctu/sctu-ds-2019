@@ -1,7 +1,6 @@
-#括号匹配
 kh = []
-yourInput = input("please input something:")
-for i in yourInput:
+Input = input("please input something:")
+for i in Input:
     if i=="("and"{"and"[":
         kh.append(i)
     elif i==")"and kh[-1]=="(":
@@ -14,4 +13,3 @@ if len(kh)==0:
     print("match")
 else:
     print("unmatch")
-
