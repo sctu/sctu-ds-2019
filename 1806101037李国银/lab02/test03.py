@@ -7,5 +7,19 @@
 
 # 3，当栈为空，且队列为空，那就是回文
 
-str =input('请输入数字：')
+str = input("please input something:")
+original = []
+inverted = []
+for i in str:
+    original.append(i)
 
+while len(original) != 0:
+    inverted.append(original.pop())
+
+for i in str:
+    original.append(i)
+
+if original == inverted:
+    print("True")
+else:
+    print("False")
