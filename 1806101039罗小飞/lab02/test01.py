@@ -9,7 +9,7 @@ stack=[]
 #     stack.append(i)
 # while len(stack) !=0:
 #     print(stack.pop())
-q=input("请输入：")
+q=input("请输入待反转字符串：")
 for i in q:
     stack.append(i)
 while len(stack) !=0:
