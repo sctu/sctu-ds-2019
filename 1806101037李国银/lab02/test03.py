@@ -21,5 +21,6 @@ for i in str:
 
 if original == inverted:
     print("True")
+
 else:
     print("False")
