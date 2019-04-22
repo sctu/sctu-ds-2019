@@ -22,6 +22,7 @@ class Student:
 chen = Student('chen', 18, 'male')
 chen.study()
 
+
 # print(chen.name)
 # print(chen.age)
 # print(chen.gender)
