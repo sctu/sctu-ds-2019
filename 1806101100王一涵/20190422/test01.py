@@ -1,14 +1,11 @@
-# coding: UTF-8
-
-# 定义变量保存学生的姓名，年龄，性别
-name = 'justin'
+#定义变量保存学生的姓名，年龄，性别
+name = 'wang'
 age = 18
 gender = 'male'
 
 a = 1
 b = 2
 c = 3
-
 
 class Student:
     # 构造函数
@@ -20,19 +17,10 @@ class Student:
 
     def study(self):
         print(self.name + ' studying!')
+    def like(self):
+        print(self.name + ' dog!')
 
+wang = Student('wang',18,'male')
+wang.study()
+wang.like()
 
-he = Student('he', 18, 'male')
-he.name
-he.age
-he.gender
-he.study()
-
-# print(he.name)
-# print(he.age)
-# print(he.gender)
-#
-# bob = Student('bob', 19, 'female')
-# print(bob.name)
-# print(bob.age)
-# print(bob.gender)
