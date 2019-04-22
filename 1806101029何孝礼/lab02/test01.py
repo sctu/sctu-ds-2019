@@ -4,4 +4,4 @@ for i in "hello,world!":
 list=[]
 while len(stack)!=0:
      list.append(stack.pop())
-print("".join(list)
+print("".join(list))
