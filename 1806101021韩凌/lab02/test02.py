@@ -11,6 +11,7 @@ for i in yourIput:
     elif i == "]" and kh [-1]=="[":
         kh.pop()
 
+
 if len(kh)==0:
     print("match")
 else:
