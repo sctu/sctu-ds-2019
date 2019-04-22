@@ -38,4 +38,3 @@ node = node1
 while node is not None:
     print(node.data)
 
-    node
