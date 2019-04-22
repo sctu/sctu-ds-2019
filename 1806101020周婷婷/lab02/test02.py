@@ -1,4 +1,6 @@
 stack = []
+
+
 friends = input("请输入:")
 for i in friends:
     if i=="("and"{"and"[":
