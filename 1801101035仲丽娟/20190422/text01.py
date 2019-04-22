@@ -13,16 +13,20 @@ c = 3
 class Student:
 #构造函数 __init__(self):
 #类里面写的函数，第一个参数都是self
+#__函数__都有特殊含义
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
         self.gender = gender
     def study(self):
         print(self.name + ' studying!')
+    def birth(self):
+        print(self.name + ' 0101')
 
 
-zhong = Student('zhong', 18, 'female')
+zhong = Student('zhong', 19, 'female')
 zhong.study()
-#print(chen.name)
-#print(chen.age)
-#print(chen.gender)
+zhong.birth()
+#print(zhong.name)
+#print(zhong.age)
+#print(zhong.gender)
