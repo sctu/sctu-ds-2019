@@ -28,3 +28,15 @@ ctrl+shift+k   提交代码
 4.在确保上一个步骤的情况下，才进行下一步的操作。
 
 left_parentheses左括号  break终止整个循环
+
+入队
+queue.append(1)
+queue.append(2)
+queue.append(3)
+
+# 出队
+print(queue.pop(0))
+print(queue.pop(0))
+print(queue.pop(0))
+四、类的应用
+
