@@ -25,6 +25,9 @@ class Student:
 
 
 chen = Student('chen', 18, 'male')
+chen.name
+chen.age
+chen.gender
 chen.study()
 
 # 任务1：扩展学生属性，并进行测试。
