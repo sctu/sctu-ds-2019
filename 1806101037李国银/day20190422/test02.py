@@ -1,14 +1,11 @@
-# -*- coding: UTF-8 -*-
+# coding: utf-8
 
 # 结点类
-# 1.定义类名字 class 类名
-#类名一般首字母大写
-
 class Node:
 
-    # 类有两个属性：data 和 next
-    def __init__(self, data):
-        self.data = data
+    # 类有两个属性：data  和next
+    def __init__(self,data):
+        self.data =data
         self.next = None
 
 
@@ -27,11 +24,17 @@ node2.next = node3
 # print(node2.data)
 # print(node3.data)
 
-# 只告诉你第一个结点的变量node1,
+
+# 只告诉你第一个结点的变量node1
 # 如何打印所有结点的值？
 node = node1
-while node is not None:
-  print(node.data)  # 第一个结点的值
+print(node.data)  #第一个结点的值
 
 # node = node1.next
-  node = node.next
+node = node.next
+
+node = node1
+
+while node is not None:
+    print(node.data)
+
