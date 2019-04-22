@@ -21,8 +21,8 @@ class Student:
         print(self.name + ' studying!')
 
 
-chen = Student('chen', 18, 'male')
-chen.study()
+zhong = Student('zhong', 18, 'female')
+zhong.study()
 #print(chen.name)
 #print(chen.age)
 #print(chen.gender)
