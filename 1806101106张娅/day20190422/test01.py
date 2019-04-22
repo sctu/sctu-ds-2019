@@ -24,14 +24,11 @@ class Student:
 zhang = Student('zhang', 19, 'female')
 zhang .study()
 
-
-
-
-#zhang = Student('zhang','20','female')
-#print(zhang.name)
-#print(zhang.age)
-#print(zhang.gender)
-#Kris = Student('Kris','20','male')
-#print(Kris.name)
-#print(Kris.age)
-#print(Kris.gender)
+zhang = Student('zhang','20','female')
+print(zhang.name)
+print(zhang.age)
+print(zhang.gender)
+Kris = Student('Kris', '20', 'male')
+print(Kris.name)
+print(Kris.age)
+print(Kris.gender)
