@@ -16,19 +16,22 @@ class  Student:
         self.gender = gender
 
     def study(self):
-        print(self.name + 'studying!')
-
-    def ability(self):
-        print(self.name + 'flying!')
+        print(self.name)
 
     def hobby(self):
-        print(self.name + 'do well in Cross Fire!')
+        print(self.name + '  does well in Cross Fire!')
 
+    def like(self):
+        print(self.name + '  likes blue,red,green and yellow!')
+
+    def sleep(self):
+        print(self.name + '  sleeps at eleven o’clock!')
 
 li = Student('李国银','19','male')
 li.study()
-li.ability()
 li.hobby()
+li.like()
+li.sleep()
 
 # print(chen.name)
 # print(chen.age)
