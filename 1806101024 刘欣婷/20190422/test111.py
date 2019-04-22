@@ -26,7 +26,6 @@ chen.study()
 # print(chen.age)
 # print(chen.gender)
 #
-
 # bob = Student('bob', 19, 'female')
 # print(bob.name)
 # print(bob.age)
