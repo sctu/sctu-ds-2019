@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# coding: utf-8
 
 # 定义变量保存学生的姓名，年龄，性别
 name = 'justin'
