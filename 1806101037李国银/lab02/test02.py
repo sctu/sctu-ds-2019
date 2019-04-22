@@ -7,7 +7,7 @@ RIGHT = ['}',']',')']
 # 依次遍历每一个字符
 for i in '{[（）]}':
     # 如果当前字符是左括号，压栈
-    if i in LEFT:
+    if i in LEFT
         # print(i)
         stack.append(i)
 
