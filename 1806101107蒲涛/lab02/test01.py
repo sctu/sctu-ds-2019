@@ -1,10 +1,8 @@
-stack=[]
-
-for i in 'hello,world!':
+stack = []
+for i in 'Hello, World!':
     stack.append(i)
-
-result=[]
+    result = []
 while len(stack) is not 0:
     result.append(stack.pop())
-print(''.join(result))
 
+    print(''.join(result))
