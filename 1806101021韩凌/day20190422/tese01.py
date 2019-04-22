@@ -1,4 +1,4 @@
-Class Student:
+class Student:
     #构造函数
     #类里面写的函数，第一个参数都是self
 
@@ -13,6 +13,6 @@ Class Student:
 
 
 chen = Student('chen','18','male')
-print(chen,name)
+print(chen.name)
 print(chen.age)
 print(chen.gender)
