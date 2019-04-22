@@ -16,4 +16,3 @@ chen = Student('chen','18','male')
 print(chen,name)
 print(chen.age)
 print(chen.gender)
-
