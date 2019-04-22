@@ -23,6 +23,8 @@ class Student:
     def study(self):
         print(self.name + ' studying!')
 
+    def fly(self):
+        print('fly')
 
 
 chen = Student('chen', 18, 'male')
