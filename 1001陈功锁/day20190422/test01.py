@@ -22,6 +22,7 @@ class Student:
         print(self.name + ' studying!')
 
 
+
 chen = Student('chen', 18, 'male')
 chen.study()
 
