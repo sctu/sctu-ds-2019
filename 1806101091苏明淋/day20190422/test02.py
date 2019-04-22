@@ -19,7 +19,6 @@ print(node1.data)
 print(node2.data)
 print(node3.data)
 
-
 node = node1
 
 while node is not None:
