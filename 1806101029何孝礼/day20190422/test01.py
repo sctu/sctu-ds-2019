@@ -23,6 +23,9 @@ class Student:
 
 
 he = Student('he', 18, 'male')
+he.namel
+he.age
+he.gender
 he.study()
 
 # print(he.name)

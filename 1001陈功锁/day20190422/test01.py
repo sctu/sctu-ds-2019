@@ -1,4 +1,4 @@
-# coding: utf-8
+# -*- coding: UTF-8 -*-
 
 # 定义变量保存学生的姓名，年龄，性别
 name = 'justin'
@@ -21,6 +21,8 @@ class Student:
     def study(self):
         print(self.name + ' studying!')
 
+    def fly(self):
+        print('fly')
 
 chen = Student('chen', 18, 'male')
 chen.study()
