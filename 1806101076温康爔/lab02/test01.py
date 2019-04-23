@@ -5,11 +5,11 @@
 #输出：!dlroW,olleH
 
 #1.将每一个字符压栈
-stack=[]
+stack = []
 for i in 'Hello,World!':
     stack.append(i)
 
 #2.出栈直到栈为空为止，并且打印每一个字符
-while len(stack) !=0:
-    a=stack.pop()
+while len(stack) != 0:
+    a = stack.pop()
     print(a)

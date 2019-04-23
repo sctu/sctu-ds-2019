@@ -11,6 +11,8 @@ print(queue.pop(0))
 print(queue.pop(0))
 print(queue.pop(0))
 
+print('hello')
+
 
 a = []
 a = list()
