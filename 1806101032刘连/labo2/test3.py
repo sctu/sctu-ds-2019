@@ -6,6 +6,6 @@ for i in l:
 for j in range(1,len(l)+1):
     b.append(l[-j])
 if a==b:
-    print(True)
-else:
+    print(True）
+    else:
     print(False)
