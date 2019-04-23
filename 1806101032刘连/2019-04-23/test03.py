@@ -1,4 +1,3 @@
-
 class Person:
 
     def __init__(self, name, age):
@@ -8,10 +7,9 @@ class Person:
     def run(self):
         print('running!')
 
-
     def fly(self):
         print('flying!')
 
 
-justin = Person('chen', 18)
-justin.run()
+Catherine = Person('liu ', 18)
+Catherine.run()
