@@ -1,5 +1,5 @@
 alist=[53,25,92,19,78,30,43,56,21]
-gap=len(alist)#列表长度
+gap=len(alist)#列表长度p;
 while gap>=1:   #控制步长
     gap=gap//2  #当步长为4时、当步长为2时、当步长为1时、都需要进行排序操作
     for j in range(gap,len(alist)): #执行多个序列间的比较
