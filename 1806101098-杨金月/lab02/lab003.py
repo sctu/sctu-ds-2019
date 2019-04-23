@@ -15,6 +15,6 @@ for n in a:
     k.append(a2)
 
 if l==k:
-    print(True)
+    print("True")
 else:
-    print(Falsh)
+    print("wrong")
