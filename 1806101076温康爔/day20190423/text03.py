@@ -8,7 +8,7 @@ class Node:
 
 # 头结点
 head = Node(-1)
-
+tail = head
 for i in range(1, 11):
     new_node = Node(i)
 
