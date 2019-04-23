@@ -2,7 +2,18 @@
 
 class Node:
 
-    def __init__(self, data, next):
+    def __init__(self, data):
         self.data = data
-        self.next = next
+        self.next = None
+
+# 头结点
+head = Node(-1)
+
+for i in range(1, 11):
+    new_node = Node(i)
+
+
+
+
+
 
