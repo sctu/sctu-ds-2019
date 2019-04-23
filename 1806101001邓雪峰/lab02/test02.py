@@ -21,7 +21,7 @@ right = {")","]","}"}
             stack.append(i)
         elif i in right:
             stack.pop()
-    return not stack
+        return not stack
 result = match('[(){()}]')
 print(result)
 
