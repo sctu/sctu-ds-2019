@@ -8,11 +8,22 @@ for ch in str:
        ch is '['or\
        ch is '(':
         stack.append(ch)
-
-    elif ch is '}'or\
-         ch is ']'or\
-         ch is ')':
-        stack.pop()
+    elif len(stack)==0:
+        stack.append(1)
+        break
+    elif ch is '}':
+        if stack[-1]=="{":
+            stack.pop()
+        else:break
+    elif ch is ']':
+        if stack[-1] == "[":
+            stack.pop()
+        else:break
+    elif ch is ')':
+        if stack[-1] == "(":
+            stack.pop()
+        else:
+            break
 
 if len(stack)==0:
     print(True)
