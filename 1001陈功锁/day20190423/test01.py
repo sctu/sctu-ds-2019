@@ -9,6 +9,9 @@ class Computer:
         self.cpu = cpu
         self.price = price
 
+    def get_cpu(self):
+        return self.cpu
+
     def play_game(self):
         print('play game!')
 
