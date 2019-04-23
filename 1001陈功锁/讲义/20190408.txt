@@ -1,0 +1,8 @@
+一、环境配置
+git
+anaconda
+pycharm
+
+
+ctrl+k 提交
+ctrl+t 更新

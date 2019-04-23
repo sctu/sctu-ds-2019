@@ -20,7 +20,7 @@
 # while len(stack) is not 0:
 #     print(stack.pop())
 stack=[]
-for i in "hello,world!"
+for i in "hello,world!":
     stack.append(i)
 result=[]
 while len(stack) is not 0:
