@@ -19,8 +19,6 @@ tail = head#tail每次指向当前链表的最后一个节点。
   #2、tail.next=new
   #3、tail=new
 
-
-
 for i in range:
     # 1 创建一个新的节点使存在节点为i
     new_node = Node(i)

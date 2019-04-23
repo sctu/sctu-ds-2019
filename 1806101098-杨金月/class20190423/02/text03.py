@@ -4,7 +4,6 @@ class Node:
         self.data = data
         self.next = None
 
-
 n1 = Node(1)
 n2 = Node(2)
 n3 = Node(3)
