@@ -1,16 +1,15 @@
+#倒序输出hello word
 stack = []
 
-stack.append(1)
-stack.append(2)
-stack.append(3)
+for i in "Hello,World":
+    stack.append(i)#压栈
 
-#ctrl+df复制前项
-#ctrl+x剪切代码
-#ctrl+w多项选择
+while len(stack) is not 0:#可以用来代替is not !=0
+    print(stack.pop(),end="")
+#   a = stack.pop()#出栈
+#   print(a)
 
-print(stack.pop())
-print(stack.pop())
-print(stack.pop())
 
-while len(stack) is not 0:
-    print(stack.pop())
+#print(stack.pop())
+#while len(stack) is not 0:
+#    print(stack.pop())

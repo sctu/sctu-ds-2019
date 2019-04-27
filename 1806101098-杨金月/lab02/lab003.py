@@ -1,11 +1,20 @@
-n=input()
+a=input()
+stack=[]
 l=[]
 x=[]
-for i in n:
+w=[]
+j=[]
+k=[]
+for i in a:
     l.append(i)
-for j in range(1,len(n)+1):
-    x.append(l[-j])
-if l==x:
-    print(True)
+for n in a:
+    x.append(n)
+    a1=x.pop()
+    w.append(a1)
+    a2=w.pop()
+    k.append(a2)
+
+if l==k:
+    print("True")
 else:
-    print(False)
+    print("wrong")
