@@ -1,6 +1,6 @@
 #类名：
 #-首字母大写，切记不要使用拼音
-#人物大战小游戏
+#人物大战小游戏。
 class Computer:
     def __init__(self,name,distance,damage,life):#构造函数
         self.CharacterName=name
