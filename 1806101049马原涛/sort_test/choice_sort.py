@@ -10,7 +10,7 @@ for j in range(0,len(ls)-1):#实际遍历从0到n-2，共n-1次
 
         if i==len(ls)-1:#内层循环遍历到最后一个元素，表示本次循环即将结束，本次循环最小值已确定，可以交换位置了
 
-            ls[j],ls[minValue]=ls[minValue],ls[j]#交换位置后，最小值下标仍然是交换位置前的下标，但现在交换位置后，需要重置
+            ls[j],ls[minValue]=ls[minValue],ls[j]#交换位置后，最小值下标minValue需要重置到下一次循环的起始位置
 
             minValue=j+1#对最小值下标进行重置
 
