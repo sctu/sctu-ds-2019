@@ -1,0 +1,4 @@
+﻿1. 下载git,anaconda,pycharm;
+2. 注册账号github.com 
+
+JetBrains

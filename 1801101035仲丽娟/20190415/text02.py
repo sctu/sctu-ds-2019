@@ -7,27 +7,28 @@
 #返回false,当所有字符处理完成后，栈不为空
 
 #定义一个集合
+stack = []
 LEFT=['{','[','(']
 RIGHT=['}',']',')']
 #依次遍历每一个字符
 for i in'{[()]}':
-    #如果左括号，压栈
+#如果左括号，压栈
     if i in LEFT:
        #print(i)
-    stack.append(i)
-if i in RIGHT:
+       stack.append(i)
+    if i in RIGHT:
        #print(i)
-     left_parentheses=stack.pop()
+       left_parentheses=stack.pop()
 #当前左括号下标
        left_index=LEFT.index(left_parentheses)
 #当前右括号下标
-       left_index=right.idex(i)
+       right_index=RIGHT.index(i)
 
-       if left_index !=right_index:
-           print('不匹配')
-           break
+       if left_index != right_index:
+            print('False')
+            break
 #当所有字符处理完成后
-if (stack)is 0
-    print('匹配')
+if len(stack)is 0:
+    print('True')
 else:
-    print('不匹配')
+    print('False')
