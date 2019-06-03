@@ -23,7 +23,7 @@ class Student:
 
 
 he = Student('he', 18, 'male')
-he.name
+he.namel
 he.age
 he.gender
 he.study()
