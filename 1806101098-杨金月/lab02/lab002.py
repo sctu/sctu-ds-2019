@@ -1,28 +1,28 @@
 str = "{[()]}"
-stack = []
+stack=[]
+l = []
 Left = "{{("
 Right = "})}"
-R = []
+r = []
 
 for i in str:
     if i in Left:
         stack.append(i)
         print(i)
-    else:
-        R = stack.pop()
-        print(R)
-        right_index = Right.index(R)
-        left_index = Left.index(i)
-        if left_index != right_index:
-            print('Wrong')
-            break
+    if i in Right:
+        r = stack.pop()
+        print(r)
+    right_index = Right.index(" ".join(r))
+
+    left_index = Left.index(i)
+
+    if left_index != right_index:
+        print("wrong")
+        break
+
 if len(stack) is 0:
-    print('True')
+    print("true")
 else:
-    print('Wrong')
-
-
-
-
+    print('wrong')
 
 
