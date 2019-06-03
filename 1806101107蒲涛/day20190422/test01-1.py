@@ -10,4 +10,4 @@ class myself:
         print(self.name+'20190422'+'really'+'costs')
 
 tao=myself('tao',20190422,20,'costing')
-tao.really()
+tao.really
