@@ -18,7 +18,8 @@ class List:
             else:
                 node.next = self.head.next
                 self.head.next = node
-     #尾插法
+    #尾插法
+
     def insert_tail(self,data):
 
         tail = self.head.next
@@ -33,13 +34,16 @@ class List:
                 tail.next = node
                 tail = node
     #打印单链表
+
     def list_print(self):
         node = self.head.next
 
         while node:
             print(node.value)
             node = node.next
-    #清空单链表
+
+     #清空单链表
+
     def list_clear(self):
         self.head.next = None
 
