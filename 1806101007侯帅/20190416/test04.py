@@ -23,6 +23,5 @@ class Student:
         print('gender: {}'.format(self.gender))
         print('code:{}'.format(self.code))
 
-
 zs = Student('侯帅',18,'男性','007');
 zs.printInfo()
