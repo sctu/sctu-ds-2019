@@ -4,7 +4,8 @@ name='jackson'
 age=18
 gender='male'
 
-class student:
+
+class Student:
     #构造函数
     #在类里面写的函数，的一个函数都是self
     def __init__(self,name,age,gender):
