@@ -7,7 +7,7 @@ class myself:
 
 
     def fj(self):
-        print(self.name+'100000000000元')
+        print(self.name+'1000000000元')
 
 feng=myself('feng','1000000000元',)
 feng.fj()
