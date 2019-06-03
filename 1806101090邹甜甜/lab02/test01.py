@@ -27,12 +27,13 @@ while len(stack) is not 0:
     #输入：hello.world
 
 
-stack = []
-for i in 'hello,world'：
+stack=[]
+for i in "Hello,world":
     stack.append(i)
-result = []
-while len(stack) is not 0
-    print(stack.pop())
+result=[]
+while len(stack) is not 0:
+    result.append(stack.pop())
+print(result)
 
 
 
