@@ -1,0 +1,21 @@
+#定义变量保存学生的，姓名，年龄，性别
+name='justin'
+age=18
+gender='male'
+name2='justin'
+age2=19
+gender2='feamale'
+a=1
+b=2
+c=3
+class Student:
+#构造函数
+#类里面学的第一个函数，第一个参数都是self
+   def_init_(self,name,age,gender):
+   slef.name=name
+   self.age=age
+   self.gender=gender
+   chen=student("chen,28,male")
+   print(chen.name)
+   print(chen.age)
+   print(chen.gender)
