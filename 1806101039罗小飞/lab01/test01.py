@@ -65,5 +65,5 @@ if __name__ == '__main__':
 
     my_list.insert_tail([1, 2, 3, 4, 5])
     my_list.list_print()
-0    # my_list.list_element_add(3, 10)
-    # my_list.list_print()
+    my_list.list_element_add(3, 10)
+    my_list.list_print()
