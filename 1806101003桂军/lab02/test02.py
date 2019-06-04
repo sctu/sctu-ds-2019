@@ -1,31 +1,31 @@
+#编程实现括号匹配
 def match_parentheses(s):
-    # 把一个list当做栈使用
-    ls = []
+
+    ls = []    # 把一个list当做栈使用
     parentheses = "()[]{}"
-    for i in range(len(s)):
+    for i in range(len(s)): # 遍历他的每一个字符
         si = s[i]
-        # 如果不是括号则继续
-        if parentheses.find(si) == -1:
+
+        if parentheses.find(si) == -1:  # 如果不是括号则继续
             continue
-        # 左括号入栈
-        if si == '(' or si == '[' or si == '{':
+
+        if si == '(' or si == '[' or si == '{':  # 如果是左括号入栈
             ls.append(si)
             continue
         if len(ls) == 0:
             return False
-        # 出栈比较是否匹配
         p = ls.pop()
-        if (p == '(' and si == ')') or (p == '[' and si == ']') or (p == '{' and si == '}'):
+        if (p == '(' and si == ')') or (p == '[' and si == ']') or (p == '{' and si == '}'):   # 如果是右括号则出栈比较是否匹配
             continue
         else:
             return False
-    if len(ls) > 0:
+    if len(ls) > 0:    # 判断栈是否为空
         return False
     return True
 if __name__ == '__main__':
-    s = "{abc}{de}(f)[(g)"
+    s = "{}{}()[()"
     result = match_parentheses(s)
     print(s, result)
-    s = "0{abc}{de}(f)[(g)]9"
+    s = "{}{}()[()]"
     result = match_parentheses(s)
     print(s, result)

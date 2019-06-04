@@ -9,6 +9,3 @@ for i in range(n):
     print(a)
 
 
-
-
-
