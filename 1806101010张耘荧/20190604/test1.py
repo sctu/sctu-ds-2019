@@ -50,7 +50,6 @@ class List:
 
     # 第i个节点前插入值为value的节点
     def list_element_add(self, i, value):
-
         node_new = Node(value)
 
         index = 0
