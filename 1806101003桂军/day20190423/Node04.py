@@ -13,3 +13,8 @@ for i in range(1,11):
     tail.next = new_node
     #更新尾结点的值
     tail = new_node
+ # 打印单链表
+node = head.next
+while node is not None:
+    print(node.data)
+    node = node.next
