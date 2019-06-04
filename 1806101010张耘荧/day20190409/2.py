@@ -4,8 +4,12 @@ for i in num:
     if i is "("or\
             i is "["or\
             i is "{":
-        stack.append(i)
-    elif i == ")":
+        left = stack.append(i)
+    elif i == ")" or "]" or "}":
+        right = stack.pop()
+if left.index(i) == right.index(i):
+
+    '''elif i == ")":
         s = stack.pop()
         if s == "(":
             continue
@@ -27,6 +31,8 @@ if len(stack)%2!=0:
     print("不匹配")
 else:
     print("匹配")
+
+'''
 
 
 
