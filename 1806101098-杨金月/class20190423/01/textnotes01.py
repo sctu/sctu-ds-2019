@@ -23,8 +23,9 @@ class Computer:
 lenovo = Computer('lenovo','intel','50000.00')
 #此三个参数与构造的函数的参数相匹配。
 
-lenovo.cpu
-lenovo.play_game()
+#lenovo.cpu
 #有小括号表示会执行此函数
+
+#lenovo.play_game()
 #没有小括号指此为一个属性。
 print(lenovo.cpu)
