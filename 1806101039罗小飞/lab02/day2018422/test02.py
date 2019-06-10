@@ -12,12 +12,6 @@ class Node:
 node1 = Node(1)
 node2 = Node(2)
 node3 = Node(3)
-node4 = Node(3)
-node5 = Node(3)
-node6 = Node(3)
-node7 = Node(3)
-node8 = Node(3)
-
 
 
 # node1的后面是node2，node2的后面是node3
