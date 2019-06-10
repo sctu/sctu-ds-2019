@@ -1,24 +1,38 @@
-#第i个节点前插入值为value的节点
-def list_element_add(self, i, value):
-    node_new = Node(value)
+class Node:
 
-    index = 0
+    def __init__(self, value):
+        self.value = value
+        self.next = None
 
-    node = self.head.next
 
-    while node:
-        index = index + 1
+class List:
 
-        if index == i - 1:
-            break
+    def __init__(self):
+        # 头节点
+        self.head = Node(-1)
 
-        node = node.next
+# 第i个节点前插入值为value的节点
+    def list_element_add(self, i, value):
 
-    if node is None:
-        return False
+        node_new = Node(value)
 
-    node_new.next = node.next
-    node.next = node_new
+        index = 0
+
+        node = self.head.next
+
+        while node:
+            index = index + 1
+
+            if index == i - 1:
+                break
+
+            node = node.next
+
+        if node is None:
+            return False
+
+        node_new.next = node.next
+        node.next = node_new
 
 
 if __name__ == '__main__':
