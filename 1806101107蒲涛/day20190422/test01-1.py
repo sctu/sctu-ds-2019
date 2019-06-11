@@ -9,5 +9,5 @@ class myself:
     def really(self):
         print(self.name+'20190422'+'really'+'costs')
 
-tao=myself('tao',20190422,200000000,'costing')
+tao=myself('tao',20190422,20,'costing')
 tao.really()
