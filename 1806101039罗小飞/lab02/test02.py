@@ -25,7 +25,7 @@ for i in a:
         continue
 if len(stackl) != 0:
     print('不匹配')
-#     p=p+1
+    # p=p+1
 # if p!=0:
 #     print('不匹配')
 # elif o==0 and p==0:
