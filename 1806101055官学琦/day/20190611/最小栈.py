@@ -47,14 +47,3 @@ if __name__=="__main__":
 
     min_stack.pop()
     print(min_stack.get_min())
-
-
-
-
-
-
-
-
-
-
-
