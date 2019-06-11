@@ -21,6 +21,6 @@ def check(input_str):
         return True
     return False
 
-
+#
 if __name__=="__main__":
     print(check(n))
