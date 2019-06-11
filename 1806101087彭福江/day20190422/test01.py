@@ -14,10 +14,9 @@ class Student:
         self.age = age
         self.gender =gender
 
-   # def study(self):
+   def study(self):
         print(self.name+"studying")
 
 chen = Student("chen",18,"male")
-print(chen.name)
-print(chen.age)
-print(chen.gender)
+
+chen.study 

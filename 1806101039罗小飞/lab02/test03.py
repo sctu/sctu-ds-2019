@@ -1,4 +1,4 @@
-str= 'abcdcba'
+str = 'abcdcba'
 stack = []
 for i in str:
     stack.append(i)
