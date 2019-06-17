@@ -24,6 +24,3 @@ if __name__ == 'main':
 
     my_list.insert_before([1, 2, 3, 4, 5])
     my_list.list_print()
-
-
-
