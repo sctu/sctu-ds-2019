@@ -17,10 +17,10 @@ for i in '{[()]}':
         right_index = RIGHT.index(i)
 
         if left_index != right_index:
-            print('不匹配')
+            print('False')
             break
 
 if len(stack) is 0:
-    print('匹配')
+    print('True')
 else:
-    print('不匹配')
+    print('False')
