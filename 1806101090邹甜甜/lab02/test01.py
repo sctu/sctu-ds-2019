@@ -19,8 +19,8 @@ for i in range(1,11):
 #print(stack.pop())
 #print(stack.pop())
 #print(stack.pop())
-while len(stack) is not 0:
-    print(stack.pop())
+#while len(stack) is not 0:
+    #print(stack.pop())
 
 
     #1.编程实现字符串反转。
@@ -28,12 +28,17 @@ while len(stack) is not 0:
 
 
 stack=[]
-for i in "Hello,world":
+for i in "Hello,world!":
     stack.append(i)
 result=[]
 while len(stack) is not 0:
     result.append(stack.pop())
 print(result)
+
+
+
+
+
 
 
 
