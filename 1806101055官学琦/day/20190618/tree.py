@@ -32,8 +32,8 @@ class BiTNode:
         if t is None:
             return
         BiTNode.inorder(t.left)
-        BiTNode.inorder(t.right)
         print(t.data)
+        BiTNode.inorder(t.right)
 
     #后序遍历
     def postorder(t):
@@ -65,6 +65,20 @@ class BiTree:
             else:
                 self.add_helper(node.right,data)
 
+#按照层次遍历
+class Solution:
+    def PrintFromTopBottom(self,root):
+        outlist=[]
+        queue=[]
+        while queue!=0 and root:
+            outlist.append(queue[0].val)
+            if queue[0].left!=None:
+                queue.append(queue[0].left)
+            elif queue[0].right!=None:
+                queue.append(queue[0].right)
+            queue.pop(0)
+        return outlist
+
 if __name__=="__main__":
     tree=BiTree()
     tree.add(1)
@@ -75,6 +89,6 @@ if __name__=="__main__":
     print(BiTNode.count_BiTNodes(tree.root))
     print(BiTNode.sum_BiTNodes(tree.root))
 
-    BiTNode.inorder(tree.root)
     BiTNode.preorder(tree.root)
+    BiTNode.inorder(tree.root)
     BiTNode.postorder(tree.root)
