@@ -23,7 +23,7 @@ class BiTNode:
         if t is None:
             return
 
-        print(t.data)
+        print(t.data,end=" ")
         BiTNode.preorder(t.left)
         BiTNode.preorder(t.right)
 
@@ -32,7 +32,7 @@ class BiTNode:
         if t is None:
             return
         BiTNode.inorder(t.left)
-        print(t.data)
+        print(t.data,end=" ")
         BiTNode.inorder(t.right)
 
     #后序遍历
@@ -41,7 +41,7 @@ class BiTNode:
             return
         BiTNode.postorder(t.left)
         BiTNode.postorder(t.right)
-        print(t.data)
+        print(t.data,end=" ")
 
 class BiTree:
     def __init__(self):
@@ -81,8 +81,8 @@ class Solution:
 
 if __name__=="__main__":
     tree=BiTree()
-    tree.add(1)
     tree.add(2)
+    tree.add(1)
     tree.add(3)
     tree.add(4)
 
