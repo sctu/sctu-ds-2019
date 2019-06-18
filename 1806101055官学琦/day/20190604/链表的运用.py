@@ -3,7 +3,7 @@ class Node:
         self.value=value
         self.next=None
 
-class list:
+class List:
     def __init__(self):
         #头节点
         self.head=Node(-1)
@@ -63,7 +63,7 @@ class list:
         node.next=node_new
 
 if __name__=="__main__":
-    my_list=list()
+    my_list=List()
 
     # my_list.insert_before([1,2,3,4,5])
     # my_list.list_print()
@@ -72,8 +72,8 @@ if __name__=="__main__":
     my_list.insert_tail([1,2,3,4,5])
     my_list.list_print()
 
-    # my_list.list_element_add(3,10)
-    # my_list.list_print()
+    my_list.list_element_add(3,10)
+    my_list.list_print()
 
 
 

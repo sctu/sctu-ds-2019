@@ -4,12 +4,20 @@
 
 #输出：!dlroW,olleH
 
-#1.将每一个字符压栈
-stack = []
-for i in 'Hello,World!':
-    stack.append(i)
+def reverse_str(input_str):
+    stack = []
+    target = []
 
-#2.出栈直到栈为空为止，并且打印每一个字符
-while len(stack) != 0:
-    a = stack.pop()
-    print(a)
+    for ch in input_str:
+        stack.append(ch)
+
+    # 出栈直到栈为空为止，并且打印每一个字符
+    while len(stack) != 0:
+        ch = stack.pop()
+        target.append(ch)
+
+    return target
+
+if __name__ == '__main__':
+    reverse_str('Hello,World!')
+
